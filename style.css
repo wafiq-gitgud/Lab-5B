@@ -1,0 +1,154 @@
+@import url('https://i.pinimg.com/736x/d6/72/64/d672649124f80b40b7041dbfb655a77d.jpg');
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* Very soft, airy pastel blue background */
+    background-color: #f0f4f8; 
+    /* Deep chocolate text for high contrast but softer than black */
+    color: #3E2723; 
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 40px 45px;
+    border-radius: 16px;
+    /* Very subtle, soft chocolate-tinted shadow */
+    box-shadow: 0 10px 30px rgba(62, 39, 35, 0.04); 
+    width: 100%;
+    max-width: 600px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #3E2723;
+    font-weight: 600;
+    font-size: 1.75rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    /* Lighter chocolate for labels */
+    color: #6D4C41; 
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 12px 14px;
+    /* Soft pastel blue border */
+    border: 1px solid #c9d6df; 
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #3E2723;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    background-color: #fafbfc;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+    outline: none;
+    /* Stronger pastel blue on focus */
+    border-color: #9ab4c6; 
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(154, 180, 198, 0.15);
+}
+
+button, .btn {
+    /* Rich chocolate button */
+    background-color: #5D4037; 
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s, transform 0.1s;
+    text-align: center;
+}
+
+button:hover, .btn:hover {
+    /* Slightly darker chocolate on hover */
+    background-color: #3E2723; 
+}
+
+button:active, .btn:active {
+    transform: translateY(1px);
+}
+
+.btn-danger {
+    /* Soft pastel red/pink to maintain the aesthetic */
+    background-color: #e29595; 
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #c97c7c;
+}
+
+.link {
+    /* Pastel blue links */
+    color: #7b9ebc; 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+.link:hover {
+    /* Slightly darker blue on hover */
+    color: #5c84a8; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 14px 16px;
+    text-align: left;
+    /* Very light blue-grey borders for the table */
+    border-bottom: 1px solid #e3e9ef; 
+}
+
+th {
+    /* Pastel blue header background */
+    background-color: #eaf1f7; 
+    font-weight: 600;
+    color: #5D4037;
+    border-bottom: 2px solid #d3dee8;
+}
+
+td {
+    color: #4a3b32;
+}
+
+.error {
+    color: #8c4242;
+    background-color: #fceceb;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #f1caca;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
